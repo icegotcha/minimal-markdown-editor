@@ -2,22 +2,18 @@
   @apply min-h-screen h-screen flex flex-col items-center justify-center;
 }
 
+.header {
+  @apply w-full px-6 py-4 flex flex-shrink-0 border-b-2;
+}
+
 .main {
-  @apply min-h-full h-full w-full flex flex-1;
+  @apply w-full flex flex-grow;
 }
 
 .footer {
-  width: 100%;
-  height: 100px;
-  border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @apply w-full py-4 flex flex-shrink-0 items-center justify-center border-t-2 border-gray-200;
 }
 
 .footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+  @apply flex flex-1 items-center justify-center;
 }
